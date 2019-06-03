@@ -12,6 +12,8 @@
 
 namespace Usps;
 
+use Usps\Exceptions\UspsTrackConfirmException;
+
 function __autoload($class_name) {
     include $class_name . '.php';
 }
