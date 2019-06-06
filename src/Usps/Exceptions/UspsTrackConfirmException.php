@@ -12,7 +12,7 @@ use Throwable;
 
 class UspsTrackConfirmException extends UspsException
 {
-    public function __construct(string $message, int $code)
+    public function __construct($message, $code)
     {
         parent::__construct($message, $code);
     }
